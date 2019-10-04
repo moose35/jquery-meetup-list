@@ -22,7 +22,7 @@
         - [X] value for group
         - [X] value for date
         - [X] delete button
-    - add hard-coded number of meetups
+    - [X] add hard-coded number of meetups
     - create variable to store total meetups starting at hard-coded number of meetups
     - check that `Add Meetup` button can be clicked
         - add button event listener
