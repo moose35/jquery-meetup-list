@@ -8,6 +8,7 @@ function onReady(){
     console.log('jQ working');
     $('#addMeetup').on('click', handleAddGroupClick);
     $('#addMeetup').on('click', inputClear);
+    $('tbody').on('click', '.deleteButton', handleDeleteClick);
 }
 
 function handleAddGroupClick(){
@@ -23,5 +24,10 @@ function handleAddGroupClick(){
 function inputClear() {
     $("#newGroup").val("");
     $("#meetupDate").val("");
+  }
+  
+  function handleDeleteClick(){
+    $('.deleteButton').on('click', 
+    console.log('Delete clicked'));
   }
   

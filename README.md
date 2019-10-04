@@ -23,12 +23,12 @@
         - [X] value for date
         - [X] delete button
     - [X] add hard-coded number of meetups
-    - create variable to store total meetups starting at hard-coded number of meetups
+    - [X] create variable to store total meetups starting at hard-coded number of meetups
     - check that `Add Meetup` button can be clicked
-        - add button event listener
-        - in jquery, create jQ function to onclick console log to check if it works
-        - console log `group` input value
-        - console log `date` input value
+        - [X] add button event listener
+        - [X] in jquery, create jQ function to onclick console log to check if it works
+        - [X] console log `group` input value
+        - [X] console log `date` input value
         - add new meetup to table
             - append hard-coded row to table via jQuery
             - add group to row
@@ -37,3 +37,5 @@
     - add event listener for delete button
     - console log `delete has been clicked`
     - delete row using jQuery `.remove`
+
+    ${} -- put javascript in here within strings to use jQuery things
