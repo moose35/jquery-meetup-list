@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,38 +10,44 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tech Meetups</title>
 </head>
+
 <body>
     <h2>Tech Meetups</h2>
-<table>
-    <tr>
-        <th><input type="text" value="New Group" id="newGroup"></th>
-        <th><input type="text" value="Next Meetup Date" id="meetupDate"></th>
-        <th><button id="addMeetup">Add Meetup</button></th>
-    </tr>
-</table>
+    <table>
+        <tr>
+            <th><input placeholder="New Group" id="newGroup"></th>
+            <th><input placeholder="Next Meetup Date" id="meetupDate"></th>
+            <th><button id="addMeetup">Add Meetup</button></th>
+        </tr>
+    </table>
 
-<table>
-  <tr>
-    <th>Group</th>
-    <th>Next Meetup</th>
-    <th>Delete</th>
-  </tr>
-  <tr>
-    <td>Prime</td>
-    <td>10/05/2019</td>
-    <td><button>Delete</button></td>
-  </tr>
-  <tr>
-    <td>Jamf</td>
-    <td>11/16/2019</td>
-    <td><button>Delete</button></td>
-  </tr>
-  <tr>
-    <td>Nerdery</td>
-    <td>12/22/2019</td>
-    <td><button>Delete</button></td>
-  </tr>
-</table>
-Total Meetups: 0
+    <table>
+        <thead>
+            <tr>
+                <th>Group</th>
+                <th>Next Meetup</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Prime</td>
+                <td>10/05/2019</td>
+                <td><button class="deleteButton">Delete</button></td>
+            </tr>
+        </tbody>
+        <tr>
+            <td>Jamf</td>
+            <td>11/16/2019</td>
+            <td><button class="deleteButton">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Nerdery</td>
+            <td>12/22/2019</td>
+            <td><button class="deleteButton">Delete</button></td>
+        </tr>
+    </table>
+    Total Meetups: 0
 </body>
+
 </html>
